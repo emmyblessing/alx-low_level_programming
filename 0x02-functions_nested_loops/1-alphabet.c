@@ -1,5 +1,8 @@
-#rint_alphabet - check the code for Holberton School students.
-~ *
+#include "holberton.h"
+
+/**
+ * print_alphabet - check the code for Holberton School students.
+ *
  * Return: Always 0.
  */
 
