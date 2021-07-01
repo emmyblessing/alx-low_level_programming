@@ -16,7 +16,8 @@ for (i = 0; str[i] != '\0'; i++)
 {
 for (j = 0; j < 54; j++)
 {
-if (((str[i] <= 'z' && str[i] >= 'a') || (str[i] <= 'Z' && str[i] >= 'A')) && str[i] == input[j])
+if (((str[i] <= 'z' && str[i] >= 'a') || (str[i] <= 'Z' && str[i] >= 'A'))
+&& str[i] == input[j])
 {
 str[i] = output[j];
 break;
